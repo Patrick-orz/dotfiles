@@ -1,0 +1,8 @@
+# MacOS
+**/.DS_Store
+
+# Unwanted directories
+iterm2/
+gh/
+cava/
+sketchybar_backup/
