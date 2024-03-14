@@ -6,8 +6,8 @@ My macOS configuration (yanked from various sources)
 - [neovim](https://github.com/neovim/neovim) (edited [LazyVim](https://github.com/LazyVim/LazyVim))
 - [SketchyBar](https://github.com/FelixKratz/SketchyBar) (edited fork of [FelixKratz setup](https://github.com/FelixKratz/dotfiles/tree/master/.config/sketchybar))
 - [neofetch](https://github.com/dylanaraps/neofetch) (image stored locally)
-- [yabai](https://github.com/koekeishiya/yabai) (edited fork of [FelixKratz setup](https://github.com/FelixKratz/dotfiles/tree/master/.config/yabai))
-- [skhd](https://github.com/koekeishiya/skhd) (edited fork of [FelixKratz setup](https://github.com/FelixKratz/dotfiles/tree/master/.config/skhd))
+- [yabai](https://github.com/koekeishiya/yabai) (edited fork of [FelixKratz's setup](https://github.com/FelixKratz/dotfiles/tree/master/.config/yabai))
+- [skhd](https://github.com/koekeishiya/skhd) (edited fork of [FelixKratz's setup](https://github.com/FelixKratz/dotfiles/tree/master/.config/skhd))
 
 # spicetify
 Extensions:
@@ -20,6 +20,7 @@ Apps:
 Theme:
 - Personalized [text theme](https://github.com/spicetify/spicetify-themes/tree/master/text)
 
+And additional QoL marketplace snippets/extensions (E.G. Ad-block, copy paste)
 # neovim
 Additional plugins:
 - [carbon-now.nvim](https://github.com/ellisonleao/carbon-now.nvim)
@@ -39,7 +40,7 @@ Theme:
 And additional QoL and fixes on top of [LazyVim](https://github.com/LazyVim/LazyVim)
 
 # SketchyBar
-On top of [FelixKratz setup](https://github.com/FelixKratz/dotfiles/tree/master/.config/sketchybar):
+On top of [FelixKratz's setup](https://github.com/FelixKratz/dotfiles/tree/master/.config/sketchybar):
 - Fixed front app icons
 - More available space icons
 - Permanent spotify anchor
@@ -52,6 +53,6 @@ Image and more information added to default look
 Config which works well with SketchyBar. Supports automatic scripting addition load on start.
 
 # skhd
-On top of [FelixKratz setup](https://github.com/FelixKratz/dotfiles/tree/master/.config/skhd):
+On top of [FelixKratz's setup](https://github.com/FelixKratz/dotfiles/tree/master/.config/skhd):
 - hjkl navigation rather than jkl;
 
