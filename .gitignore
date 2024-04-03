@@ -12,3 +12,8 @@ raycast/
 spicetify/Backup/
 spicetify/Extracted/
 spicetify/config-xpui.ini
+
+# Nvim unwanted files
+nvim/*
+!nvim/lua/
+!nvim/lua/*
