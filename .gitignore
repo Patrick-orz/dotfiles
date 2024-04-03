@@ -6,3 +6,9 @@ iterm2/
 gh/
 cava/
 sketchybar_backup/
+raycast/
+
+# Spicetify unwanted directories
+spicetify/Backup/
+spicetify/Extracted/
+spicetify/config-xpui.ini

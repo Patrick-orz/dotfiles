@@ -9,9 +9,9 @@ if [ "$SENDER" = "space_windows_change" ]; then
 		while read -r app; do
 			icon_strip+=" $($CONFIG_DIR/plugins/icon_map.sh "$app")"
 		done <<<"${apps}"
-	    sketchybar --animate sin 10 --set space.$space label="$icon_strip"
+	    sketchybar --animate sin 10 --set space.$space label.drawing=on label="$icon_strip"
 	else
-		icon_strip=""
-	    sketchybar --animate sin 10 --set space.$space label.drawing=off
+		icon_strip="～"
+	    sketchybar --animate sin 10 --set space.$space label.drawing=off label="$icon_strip"
 	fi
 fi
