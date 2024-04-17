@@ -5,7 +5,7 @@ return {
     name = "catppuccin",
     lazy = false,
     opts = {
-      flavour = "mocha",
+      flavour = "frappe",
       -- transparent_background = true,
       -- color_overrides = {
       --   mocha = {
@@ -32,6 +32,16 @@ return {
             CursorLine = { bg = "#323854" },
 
             NormalFloat = { bg = mocha.surface0 },
+          }
+        end,
+
+        frappe = function(frappe)
+          return {
+            LineNr = { fg = frappe.overlay1 },
+            CursorLineNr = { fg = "#ff9933", style = { "bold" } },
+            CursorLine = { bg = "#323854" },
+
+            NormalFloat = { bg = frappe.surface0 },
           }
         end,
       },
