@@ -1,8 +1,6 @@
 return {
   {
     "lukas-reineke/indent-blankline.nvim",
-    main = "ibl",
-
     -- opts = function(_, opts)
     --   -- Other blankline configuration here
     --   opts = {
@@ -18,21 +16,8 @@ return {
     --   })
     -- end,
     opts = {
-      indent = {
-        char = "▏",
-        tab_char = "▎",
-      },
-    },
-    dependencies = {
-      "TheGLander/indent-rainbowline.nvim",
-    },
-  },
-  {
-    "echasnovski/mini.indentscope",
-    opts = {
-      symbol = "▏",
-      -- symbol = "│",
-      options = { try_as_border = true },
+      indent = { char = "▏", highlight = "IblChar" },
+      scope = { char = "▎", highlight = "IblScopeChar" },
     },
   },
 }

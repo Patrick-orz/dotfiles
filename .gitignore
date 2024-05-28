@@ -1,18 +1,10 @@
 # MacOS
-**/.DS_Store
+.DS_Store
 
-# Unwanted directories
-iterm2/
-gh/
-cava/
-sketchybar_backup/
-raycast/
-
-# Spicetify unwanted directories
-spicetify/Backup/
-spicetify/Extracted/
-spicetify/config-xpui.ini
-
-# Nvim unwanted files
-nvim/*
-!nvim/lua/*
+/*/
+# Wanted directories
+!/yabai/
+!/skhd/
+!/sketchybar/
+!/nvim/
+!/neofetch/
